@@ -1,13 +1,15 @@
-var minutes=25;
- var seconds=0;
+var minutes=prompt("enter minutes:");
+ var seconds=prompt("enter seconds:");
  var interval;
 function print(){
     var el= document.getElementById("class")
     if(minutes==0 && seconds==0){
         window.clearInterval(interval)
-        el.innerHTML="00:00"
+        document.getElementById("audio").play();
+        el.innerHTML="00:00";
+        window.alert("Time Over!")
     }
-    if(seconds>0){
+    else if(seconds>0){
     seconds--;
    el.innerHTML=minutes+":"+seconds;
     }
