@@ -1,13 +1,64 @@
+ body{
+background-color: rgba(253, 243, 231, 0.768);
+}
+#pomo{
+        background:  rgb(249, 235, 219);
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.9cm rgba(49, 49, 49, 0.5);
+  height: 540px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2{
+        color: rgb(245, 193, 125);
+        text-align: center;
+        height: 50px;
+        justify-content: space-around;
+        font-size: 600%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+        color: rgb(228, 203, 171);
+        text-align: center;
+        justify-content: space-around;
+        font-size: 200%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 #class{
-    text-align: center;
-    color: blue;
+        color: rgb(222, 160, 79);
+        text-align: center;
+        justify-content: space-around;
+        font-size: 200%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#btnon{
-    text-align: center;
-    color: green;
+.btn{
+        font-size: 40px;
+        padding: 10px;
+        margin: 20px;
+        border-radius: 10px;
+        background-color: rgba(246, 176, 84, 0.617);
+        color:rgb(247, 244, 240);
+        border-style:solid;
+        border-color:rgba(255, 127, 80, 0.261) ;
 }
-#btnstp{
-    text-align: center;
-    color: red;
-
+#butnn{
+        text-align: center;
+        opacity: 0.8px;
+}
+#btnss{
+        text-align: center;
+        opacity: 0.8px;
+}
+.btns{
+        font-size: 40px;
+        padding: 10px;
+        margin: 20px;
+        border-radius: 10px;
+        background-color:rgba(246, 176, 84, 0.617);
+        color:rgb(247, 244, 240);
+        border-style:solid;
+        border-color:rgba(255, 127, 80, 0.261) ;
 }
